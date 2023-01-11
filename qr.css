@@ -1,0 +1,117 @@
+@media(min-width:375px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(212, 45%, 89%);
+    margin: 7% 20%;
+    width: 60%;    
+    height: 70vh;
+    font-family: 'Outfit', sans-serif;
+    box-shadow: 0px 1px 17px 0px rgba(0,0,0,0.73);
+    -webkit-box-shadow: 0px 1px 17px 0px rgba(0,0,0,0.73);
+    -moz-box-shadow: 0px 1px 17px 0px rgba(0,0,0,0.73);
+}
+.card img{
+    width: 200px;
+    border-radius: 10px;
+    margin: 15px;
+}
+.card{
+    width: 230px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    height: 340px;
+}
+.info{
+    text-align: center;
+    font-size: 15px;
+}
+.header{
+    width: 200px;
+    margin-left: 1rem;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    margin-bottom: 0.9rem;
+}
+.info p{
+    width: 180px;
+    font-size: 10px;
+    margin-left: 1.5rem;
+    color: hsl(220, 15%, 55%);
+    line-height: 13px;
+}
+.personal-info{
+    margin-top: 2rem;
+    right: 2rem;
+    position: relative;
+}
+.personal-info p{
+    font-size: 10px;
+    width: 310px;
+}
+.personal-info span{
+    color: hsl(220, 15%, 55%);
+}
+}
+@media(max-width:375px){
+    body{
+        background-color: hsl(212, 45%, 89%);
+    }    
+
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card img{
+        width: 200px;
+        border-radius: 10px;
+        margin: 15px;
+    }
+    .card{
+        width: 230px;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 10px;
+        height: 340px;
+        margin-top: 27%;
+    }
+    .info{
+        text-align: center;
+        font-size: 15px;
+    }
+    .header{
+        width: 200px;
+        margin-left: 1rem;
+        font-weight: 700;
+        color: hsl(218, 44%, 22%);
+        margin-bottom: 0.9rem;
+    }
+    .info p{
+        width: 180px;
+        font-size: 10px;
+        margin-left: 1.5rem;
+        color: hsl(220, 15%, 55%);
+        line-height: 13px;
+    }
+    .personal-info{
+        margin-top: 2rem;
+        right: 2rem;
+        position: relative;
+    }
+    .personal-info p{
+        font-size: 10px;
+        width: 310px;
+    }
+    .personal-info span{
+        color: hsl(220, 15%, 55%);
+    }
+
+}
